@@ -1,0 +1,22 @@
+fastapi
+uvicorn[standard]
+pydantic
+scikit-learn
+xgboost
+numpy
+pandas
+joblib
+httpx
+python-multipart
+tensorflow>=2.12
+opencv-python
+python-multipart
+pillow
+fastapi
+uvicorn[standard]
+pydantic
+tensorflow>=2.12
+opencv-python
+python-multipart
+pillow
+sqlitedict  # lightweight persistence for labels (or swap for PostgreSQL)
