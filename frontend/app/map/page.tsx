@@ -2,10 +2,12 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import MapView from '@/components/MapView'
-import { api } from '@/lib/api'
+import { api } from '../lib/api'
+import MapView from '../components/MapView'
+
 
 export default function MapPage() {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [sensors, setSensors] = useState<any[]>([])
   const [loading, setLoading] = useState(true)
 

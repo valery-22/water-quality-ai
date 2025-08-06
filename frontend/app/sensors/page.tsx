@@ -1,10 +1,12 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 // app/sensors/page.tsx
 'use client'
 
 import { useEffect, useState } from 'react'
-import { api } from '@/lib/api'
-import { Card } from '@/components/ui/card'
-import { ChartView } from '@/components/ChartView'
+import { api } from '../lib/api'
+import { ChartView } from '../components/ChartView'
+import { Card } from '../components/ui/card'
+
 
 interface Sensor {
   id: string
